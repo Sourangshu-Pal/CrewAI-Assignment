@@ -1,6 +1,6 @@
 import unittest
 from tasks.research_task import perform_research
-from tasks.writing_task import generate_summary
+from tasks.writer_task import generate_summary
 
 class TestTasks(unittest.TestCase):
     def test_perform_research(self):
